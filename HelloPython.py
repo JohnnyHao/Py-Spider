@@ -52,3 +52,6 @@ httpsHandler = urllib2.HTTPSHandler(debuglevel=1)
 opener = urllib2.build_opener(httpHandler, httpsHandler)
 urllib2.install_opener(opener)
 response = urllib2.urlopen('http://www.meilele.com')
+
+import os.path
+dir(os)
